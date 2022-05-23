@@ -1,0 +1,23 @@
+name: WyldLifeSystem
+author: Fluffeliger
+main: de.fluffeliger.wyldlife.WyldLife
+api-version: 1.18
+version: ${project.version}
+description: The System for WyldLife! <3
+commands:
+  reloadWyldConfig:
+    aliases:
+      - wyldreload
+      - wrl
+  gamemode:
+    aliases:
+      - gm
+      - gmode
+  spawn:
+    aliases:
+      - worldspawn
+      - entrypoint
+  ban:
+    aliases:
+      - banhammer
+  redis:
